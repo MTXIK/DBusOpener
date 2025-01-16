@@ -52,7 +52,7 @@ sudo dnf install qt5-qtbase-devel qt5-qtdbus-devel gcc-c++ make systemd-devel
 ### 1. Клонирование Репозитория
 
 ```bash
-git clone https://github.com/yourusername/FileOpener.git
+git clone https://github.com/MTXIK/DBusOpener.git
 cd DBusOpener
 ```
 
@@ -341,5 +341,3 @@ sudo chmod +x /usr/local/bin/fileopener_service
   make
   ```
 ---
-
-**Примечание:** Замените `yourusername` на ваше реальное имя пользователя GitHub и убедитесь, что URL репозитория в шаге клонирования соответствует вашему репозиторию. Также добавьте файл `LICENSE` в ваш репозиторий для указания условий лицензирования.
